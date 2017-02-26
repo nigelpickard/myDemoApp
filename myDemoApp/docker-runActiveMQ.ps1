@@ -35,11 +35,11 @@ if("stop" -ne $stop){
     #need to be removed
 
     # ZAREX MQ
-    $cmd = 'docker run --name=' + $myDemoActiveMQName + ' --add-host ' + $myDemoHostName + ':' + $ip.ipaddress[0] + ' -p 8161:8161 -p 61616:61616 -p 61613:61613 -p 61617:61617 -v $Env:MYDEMO_PATH\myDemo\src\main\resources\activemq\conf\activemq.xml:/opt/activemq/conf/activemq.xml -d granthbr/docker-activemq-oraclejava-7'
-    Write-Host $cmd
-    Invoke-Expression $cmd
-
-    #$cmd = 'docker run --name=' + $myDemoActiveMQName + ' --add-host ' + $myDemoHostName + ':' + $ip.ipaddress[0] + ' -p 8161:8161 -p 61616:61616 -p 61613:61613 -p 61617:61617 -d granthbr/docker-activemq-oraclejava-7'
+    #$cmd = 'docker run --name=' + $myDemoActiveMQName + ' --add-host ' + $myDemoHostName + ':' + $ip.ipaddress[0] + ' -p 8161:8161 -p 61616:61616 -p 61613:61613 -p 61617:61617 -v $Env:MYDEMO_PATH\myDemo\src\main\resources\activemq\conf\activemq.xml:/opt/activemq/conf/activemq.xml -d granthbr/docker-activemq-oraclejava-7'
     #Write-Host $cmd
     #Invoke-Expression $cmd
+
+    $cmd = 'docker run --name=' + $myDemoActiveMQName + ' --add-host ' + $myDemoHostName + ':' + $ip.ipaddress[0] + ' -p 8161:8161 -p 61616:61616 -p 61613:61613 -p 61617:61617 -d granthbr/docker-activemq-oraclejava-7'
+    Write-Host $cmd
+    Invoke-Expression $cmd
 }

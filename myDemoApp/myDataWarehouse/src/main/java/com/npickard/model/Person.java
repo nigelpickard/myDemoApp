@@ -1,13 +1,15 @@
 package com.npickard.model;
 
+import javax.jms.Message;
 import javax.persistence.*;
+import java.io.Serializable;
 
 /**
  * Created by npickard on 2/22/2017.
  */
 @Entity
 @Table(name="Person")
-public class Person {
+public class Person implements Serializable {
 
     @Id
     @Column(name="id")

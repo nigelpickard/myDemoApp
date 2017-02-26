@@ -28,21 +28,21 @@ public class MyDataWarehouseApplication {
 		ConfigurableApplicationContext context = SpringApplication.run(MyDataWarehouseApplication.class, args);
 	}
 
-	@Bean
-	public JmsListenerContainerFactory<?> myFactory(ConnectionFactory connectionFactory,
-													DefaultJmsListenerContainerFactoryConfigurer configurer) {
-		DefaultJmsListenerContainerFactory factory = new DefaultJmsListenerContainerFactory();
-		configurer.configure(factory, connectionFactory);
-		return factory;
-	}
-
-	@Bean // Serialize message content to json using TextMessage
-	public MessageConverter jacksonJmsMessageConverter() {
-		MappingJackson2MessageConverter converter = new MappingJackson2MessageConverter();
-		converter.setTargetType(MessageType.TEXT);
-		converter.setTypeIdPropertyName("_type");
-		return converter;
-	}
+//	@Bean
+//	public JmsListenerContainerFactory<?> myFactory(ConnectionFactory connectionFactory,
+//													DefaultJmsListenerContainerFactoryConfigurer configurer) {
+//		DefaultJmsListenerContainerFactory factory = new DefaultJmsListenerContainerFactory();
+//		configurer.configure(factory, connectionFactory);
+//		return factory;
+//	}
+//
+//	@Bean // Serialize message content to json using TextMessage
+//	public MessageConverter jacksonJmsMessageConverter() {
+//		MappingJackson2MessageConverter converter = new MappingJackson2MessageConverter();
+//		converter.setTargetType(MessageType.TEXT);
+//		converter.setTypeIdPropertyName("_type");
+//		return converter;
+//	}
 
 	@Bean
 	public CommandLineRunner commandLineRunner(ApplicationContext ctx) {

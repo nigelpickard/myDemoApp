@@ -15,7 +15,8 @@ import java.util.List;
 @RestController
 public class MyDataWarehouseRESTController {
     private static final Log log = LogFactory.getLog(MyDataWarehouseRESTController.class);
-    private static final MessagePersistenceMode messagePersistenceMode = MessagePersistenceMode.PERSIST;
+    //private static final MessagePersistenceMode messagePersistenceMode = MessagePersistenceMode.PERSIST;
+    private static final MessagePersistenceMode messagePersistenceMode = MessagePersistenceMode.MESSAGE;
 
     @Autowired
     FlattenedPersonBuilder flattenedPersonBuilder;

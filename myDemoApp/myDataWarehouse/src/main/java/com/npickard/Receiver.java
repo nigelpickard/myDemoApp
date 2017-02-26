@@ -24,5 +24,5 @@ public class Receiver {
         log.info("Received <" + person.toString() + ">");
         flattenedPersonBuilder.createPerson(messagePersistenceMode, person);
     }
-    
+
 }

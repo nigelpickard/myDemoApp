@@ -15,6 +15,12 @@ $stop = $args[2]
 Write-Host 'Running and create all services -arguments are demoName: '$demoName'  database name: '$dbName
 Write-Host 'MYDEMO_PATH='$Env:MYDEMO_PATH
 
+
+##########################################################################################
+#
+# ACTIVE MQ
+#
+##########################################################################################
 #get active mq up and running
 $cmd = $Env:MYDEMO_PATH + '\docker-runActiveMQ.ps1 ' + $demoName + ' ' + $stop
 Write-Host $cmd
@@ -31,7 +37,6 @@ $dbPortNumbersArray = (3306)
 $demoPortNumbersArray = (8080)
 
 for($i = 0; $i -le $dbPortNumbersArray.count -1; $i++) {
-
     $cmd = $Env:MYDEMO_PATH + '\docker-runMySQL.ps1 ' + $demoName + ' ' + $dbName + ' ' + $dbPortNumbersArray[$i]  + ' ' + $stop
     Write-Host $cmd
     Invoke-Expression $cmd
@@ -46,7 +51,6 @@ for($i = 0; $i -le $dbPortNumbersArray.count -1; $i++) {
     $cmd = $Env:MYDEMO_PATH + '\docker-runMyDemo.ps1 ' + $demoName + ' ' + $demoPortNumbersArray[$i] + ' ' + $dbName + ' ' + $dbPortNumbersArray[$i]  + ' ' + $stop
     Write-Host $cmd
     Invoke-Expression $cmd
-
 }
 
 
@@ -58,9 +62,7 @@ for($i = 0; $i -le $dbPortNumbersArray.count -1; $i++) {
 $dbPortNumbersArray = (3307)
 $demoPortNumbersArray = (8081)
 
-
 for($i = 0; $i -le $dbPortNumbersArray.count -1; $i++) {
-
     $cmd = $Env:MYDEMO_PATH + '\docker-runMySQL.ps1 ' + $demoName + ' ' + $dbName + ' ' + $dbPortNumbersArray[$i]  + ' ' + $stop
     Write-Host $cmd
     Invoke-Expression $cmd
@@ -75,6 +77,5 @@ for($i = 0; $i -le $dbPortNumbersArray.count -1; $i++) {
     $cmd = $Env:MYDEMO_PATH + '\docker-runMyDataWarehouse.ps1 ' + $demoName + ' ' + $demoPortNumbersArray[$i] + ' ' + $dbName + ' ' + $dbPortNumbersArray[$i]  + ' ' + $stop
     Write-Host $cmd
     Invoke-Expression $cmd
-
 }
 

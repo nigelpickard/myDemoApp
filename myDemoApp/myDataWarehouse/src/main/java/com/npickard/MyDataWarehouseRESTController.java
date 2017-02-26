@@ -1,0 +1,48 @@
+package com.npickard;
+
+import com.npickard.model.FlattenedPerson;
+import com.npickard.model.Person;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+/**
+ * Created by npickard on 2/20/2017.
+ */
+@RestController
+public class MyDataWarehouseRESTController {
+    private static final Log log = LogFactory.getLog(MyDataWarehouseRESTController.class);
+    private static final MessagePersistenceMode messagePersistenceMode = MessagePersistenceMode.PERSIST;
+
+    @Autowired
+    FlattenedPersonBuilder flattenedPersonBuilder;
+
+    @RequestMapping("/")
+    public String index() {
+        return "This is a message from the MyDataWarehouse REST Controller!";
+    }
+
+    @RequestMapping(value = "/person", method = RequestMethod.GET)
+    public String createPersonByRequestParam(@RequestParam("name") String personName) {
+        log.info("about to create a person called " + personName);
+        Person person = new Person(personName);
+        flattenedPersonBuilder.createPerson(messagePersistenceMode, person);
+        return ("FlattenedPerson saved is " + person.toString());
+    }
+
+    @RequestMapping(value = "/persons", method = RequestMethod.GET)
+    public String getAllPerson() {
+        log.info("about to get all flattened persons");
+        List<FlattenedPerson> flattenedPersons = flattenedPersonBuilder.getAllPersons();
+        StringBuffer sb = new StringBuffer();
+        sb.append("<br>");
+        for (FlattenedPerson flattenedPerson : flattenedPersons){
+            sb.append(flattenedPerson.toString() + "<br>");
+        }
+        return ("Flattened Persons persisted in database are " + sb.toString());
+    }
+
+}

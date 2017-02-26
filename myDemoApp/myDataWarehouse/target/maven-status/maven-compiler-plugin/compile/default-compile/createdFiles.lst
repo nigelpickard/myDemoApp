@@ -1,0 +1,10 @@
+com\npickard\FlattenedPersonBuilder.class
+com\npickard\model\Person.class
+com\npickard\service\FlattenedPersonService.class
+com\npickard\MyDataWarehouseRESTController.class
+com\npickard\dao\FlattenedPersonDAO.class
+com\npickard\dao\FlattenedPersonDAOImpl.class
+com\npickard\model\FlattenedPerson.class
+com\npickard\Receiver.class
+com\npickard\MessagePersistenceMode.class
+com\npickard\MyDataWarehouseApplication.class

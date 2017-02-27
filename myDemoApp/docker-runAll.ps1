@@ -50,7 +50,7 @@ for($i = 0; $i -le $dbPortNumbersArray.count -1; $i++) {
 
     $cmd = $Env:MYDEMO_PATH + '\docker-runMyDemo.ps1 ' + $demoName + ' ' + $demoPortNumbersArray[$i] + ' ' + $dbName + ' ' + $dbPortNumbersArray[$i]  + ' ' + $stop
     Write-Host $cmd
-    #Invoke-Expression $cmd
+    Invoke-Expression $cmd
 }
 
 

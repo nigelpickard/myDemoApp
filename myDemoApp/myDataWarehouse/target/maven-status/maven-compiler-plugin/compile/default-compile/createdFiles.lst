@@ -8,7 +8,6 @@ com\npickard\dao\FlattenedPersonDAOImpl.class
 com\npickard\JmsMessageListener.class
 com\npickard\JmsMessageSender$1.class
 com\npickard\model\FlattenedPerson.class
-com\npickard\Receiver.class
 com\npickard\JmsMessageSender$2.class
 com\npickard\MessagePersistenceMode.class
 com\npickard\MyDataWarehouseApplication.class

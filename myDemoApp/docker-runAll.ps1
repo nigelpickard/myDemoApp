@@ -33,8 +33,8 @@ Invoke-Expression $cmd
 # APP AND DBS
 #
 ##########################################################################################
-$dbPortNumbersArray = (3307)
-$demoPortNumbersArray = (8081)
+$dbPortNumbersArray = (3307, 3308)
+$demoPortNumbersArray = (8081, 8082)
 
 for($i = 0; $i -le $dbPortNumbersArray.count -1; $i++) {
     $cmd = $Env:MYDEMO_PATH + '\docker-runMySQL.ps1 ' + $demoName + ' ' + $dbName + ' ' + $dbPortNumbersArray[$i]  + ' ' + $stop

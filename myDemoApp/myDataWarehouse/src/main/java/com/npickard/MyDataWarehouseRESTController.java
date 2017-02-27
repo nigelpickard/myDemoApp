@@ -35,7 +35,7 @@ public class MyDataWarehouseRESTController {
         for (FlattenedPerson flattenedPerson : flattenedPersons){
             sb.append(flattenedPerson.toString() + "<br>");
         }
-        return ("Flattened Persons persisted in database are " + sb.toString());
+        return ("DataWarehouse Service: Flattened Persons persisted in database are " + sb.toString());
     }
 
 }

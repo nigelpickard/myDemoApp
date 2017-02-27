@@ -48,15 +48,7 @@ public class FlattenedPersonBuilder implements ApplicationContextAware {
         }
 
         if (MessagePersistenceMode.MESSAGE.equals(messagePersistenceMode)){
-            //log.info("Trying to send a message for DataWarehouse; not a valid operation.");
-            log.info("Sending person message: " + person.toString());
-            JmsMessageSender jmsMessageSender = (JmsMessageSender)applicationContext.getBean("jmsMessageSender");
-
-            // send to default destination
-            jmsMessageSender.send(person.getName());
-//            // send to a code specified destination
-//            Queue queue = new ActiveMQQueue("AnotherDest");
-//            jmsMessageSender.send(queue, "hello Another Message");
+            log.info("Trying to send a message for DataWarehouse; not a valid operation.");
         }
 
         if (MessagePersistenceMode.PERSIST.equals(messagePersistenceMode)){

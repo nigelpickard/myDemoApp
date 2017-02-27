@@ -26,14 +26,6 @@ public class MyDataWarehouseRESTController {
         return "This is a message from the MyDataWarehouse REST Controller!";
     }
 
-    @RequestMapping(value = "/person", method = RequestMethod.GET)
-    public String createPersonByRequestParam(@RequestParam("name") String personName) {
-        log.info("about to create a person called " + personName);
-        Person person = new Person(personName);
-        flattenedPersonBuilder.createPerson(messagePersistenceMode, person);
-        return ("FlattenedPerson saved is " + person.toString());
-    }
-
     @RequestMapping(value = "/persons", method = RequestMethod.GET)
     public String getAllPerson() {
         log.info("about to get all flattened persons");

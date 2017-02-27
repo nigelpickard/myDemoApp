@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb50cf70-b430-478f-b0ca-258c03893888" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/target/classes/com/npickard/FlattenedPersonBuilder.class" afterPath="$PROJECT_DIR$/myDataWarehouse/target/classes/com/npickard/FlattenedPersonBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/target/classes/com/npickard/MyDataWarehouseApplication.class" afterPath="$PROJECT_DIR$/myDataWarehouse/target/classes/com/npickard/MyDataWarehouseApplication.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/target/classes/com/npickard/MyDataWarehouseRESTController.class" afterPath="$PROJECT_DIR$/myDataWarehouse/target/classes/com/npickard/MyDataWarehouseRESTController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/target/myDataWarehouse-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/myDataWarehouse/target/myDataWarehouse-0.0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/target/myDataWarehouse-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/myDataWarehouse/target/myDataWarehouse-0.0.1-SNAPSHOT.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/ib_logfile0" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/ib_logfile0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/ibdata1" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/ibdata1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/myDemoDb/Person.ibd" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/myDemoDb/Person.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/myDemoDb/hibernate_sequence.ibd" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/myDemoDb/hibernate_sequence.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/mysql/innodb_index_stats.ibd" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/mysql/innodb_index_stats.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/mysql/innodb_table_stats.ibd" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/mysql/innodb_table_stats.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/ib_logfile0" afterPath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/ib_logfile0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/ibdata1" afterPath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/ibdata1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/myDemoDb/Person.ibd" afterPath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/myDemoDb/Person.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/myDemoDb/hibernate_sequence.ibd" afterPath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/myDemoDb/hibernate_sequence.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/mysql/innodb_index_stats.ibd" afterPath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/mysql/innodb_index_stats.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/mysql/innodb_table_stats.ibd" afterPath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/mysql/innodb_table_stats.ibd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDemo" afterPath="$PROJECT_DIR$/myDemo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-runAll.ps1" afterPath="$PROJECT_DIR$/docker-runAll.ps1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/MyDataWarehouseRESTController.java" afterPath="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/MyDataWarehouseRESTController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/myDataWarehouse/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/myDataWarehouse/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/myDataWarehouse/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDemo/src/main/java/com/npickard/MyDemoRESTController.java" afterPath="$PROJECT_DIR$/myDemo/src/main/java/com/npickard/MyDemoRESTController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/myDemo/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -402,7 +381,7 @@
       <recent name="C:\Users\npickard\Documents\personal\workspace\myDemoProject\myDemoApp\myDataWarehouse\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.MyDemo-Deploy">
+  <component name="RunManager" selected="Maven.MyDataWarehouse-Deploy">
     <configuration default="false" name="MyDataWarehouseApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -966,7 +945,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488162583254</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="minor, changed output and increased to 2 application services">
+      <created>1488163149510</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1488163149510</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -983,12 +969,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22542372" sideWeight="0.17878339" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27631578" sideWeight="0.82121664" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47368422" sideWeight="0.82121664" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25841874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25841874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26440677" sideWeight="0.6810089" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />

@@ -32,7 +32,8 @@ docker rm $myDemoName
 
 #we now have the mysql running, now run the demo app
 if("stop" -ne $stop){
-    $cmd = 'docker run --name=' + $myDemoName + ' -e MYDEMO_NAME=' + $demoName + ' -e MYDEMO_HOSTNAME=' + $myDemoHostName + ' -e MYDEMO_DB_PORT=' + $dbMappedPort + ' -e MYDEMO_DB_NAME=' + $dbName + ' --add-host ' + $myDemoHostName + ':' + $ip.ipaddress[0] + ' -p ' +  $demoMappedPort + ':8080 -d -v $Env:MYDEMO_PATH\myDataWarehouse\target\myDataWarehouse-0.0.1-SNAPSHOT.jar:/docker/myDataWarehouse-0.0.1-SNAPSHOT.jar java:8u40 java -jar /docker/myDataWarehouse-0.0.1-SNAPSHOT.jar'
+    #$cmd = 'docker run --name=' + $myDemoName + ' -e MYDEMO_NAME=' + $demoName + ' -e MYDEMO_HOSTNAME=' + $myDemoHostName + ' -e MYDEMO_DB_PORT=' + $dbMappedPort + ' -e MYDEMO_DB_NAME=' + $dbName + ' --add-host ' + $myDemoHostName + ':' + $ip.ipaddress[0] + ' -p ' +  $demoMappedPort + ':8080 -d -v $Env:MYDEMO_PATH\myDataWarehouse\target\myDataWarehouse-0.0.1-SNAPSHOT.jar:/docker/myDataWarehouse-0.0.1-SNAPSHOT.jar java:8u40 java -jar /docker/myDataWarehouse-0.0.1-SNAPSHOT.jar'
+    $cmd = 'docker run --name=' + $myDemoName + ' -e MYDEMO_NAME=' + $demoName + ' -e MYDEMO_HOSTNAME=' + $myDemoHostName + ' -e MYDEMO_DB_PORT=' + $dbMappedPort + ' -e MYDEMO_DB_NAME=' + $dbName + ' --add-host ' + $myDemoHostName + ':' + '10.10.10.1' + ' -p ' +  $demoMappedPort + ':8080 -d -v $Env:MYDEMO_PATH\myDataWarehouse\target\myDataWarehouse-0.0.1-SNAPSHOT.jar:/docker/myDataWarehouse-0.0.1-SNAPSHOT.jar java:8u40 java -jar /docker/myDataWarehouse-0.0.1-SNAPSHOT.jar'
     Write-Host $cmd
     Invoke-Expression $cmd
 }

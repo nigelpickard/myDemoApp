@@ -34,7 +34,9 @@ $myDemoHostName = 'local.' + $demoName + '.com'
 if("stop" -ne $stop){
     #need to be removed
 
-    $cmd = 'docker run --name=' + $myDemoActiveMQName + ' --add-host ' + $myDemoHostName + ':' + $ip.ipaddress[0] + ' -p 8161:8161 -p 61616:61616 -p 61613:61613 -p 61617:61617 -d granthbr/docker-activemq-oraclejava-7'
+    #$cmd = 'docker run --name=' + $myDemoActiveMQName + ' --add-host ' + $myDemoHostName + ':' + $ip.ipaddress[0] + ' -p 8161:8161 -p 61616:61616 -p 61613:61613 -p 61617:61617 -d granthbr/docker-activemq-oraclejava-7'
+    $cmd = 'docker run --name=' + $myDemoActiveMQName + ' --add-host ' + $myDemoHostName + ':' + '10.10.10.1' + ' -p 8161:8161 -p 61616:61616 -p 61613:61613 -p 61617:61617 -d granthbr/docker-activemq-oraclejava-7'
+
     Write-Host $cmd
     Invoke-Expression $cmd
 }

@@ -45,7 +45,9 @@ if(!(Test-Path -Path $databaseDir )){
 
 #we now have the mysql running, now run the demo app
 if("stop" -ne $stop){
-    $cmd = 'docker run --name=' + $myDemoSQLName + ' --add-host ' + $myDemoHostName + ':' + $ip.ipaddress[0] + ' -v ' + $databaseDir + ':/var/lib/mysql -p ' + $dbMappedPort + ':3306 -e MYSQL_ROOT_PASSWORD=password -d mysql:5.6.32'
+    #$cmd = 'docker run --name=' + $myDemoSQLName + ' --add-host ' + $myDemoHostName + ':' + $ip.ipaddress[0] + ' -v ' + $databaseDir + ':/var/lib/mysql -p ' + $dbMappedPort + ':3306 -e MYSQL_ROOT_PASSWORD=password -d mysql:5.6.32'
+    $cmd = 'docker run --name=' + $myDemoSQLName + ' --add-host ' + $myDemoHostName + ':' + '10.10.10.1' + ' -v ' + $databaseDir + ':/var/lib/mysql -p ' + $dbMappedPort + ':3306 -e MYSQL_ROOT_PASSWORD=password -d mysql:5.6.32'
+
     Write-Host $cmd
     Invoke-Expression $cmd
 

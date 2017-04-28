@@ -1,6 +1,10 @@
 Author: Nigel Pickard
 Date: 02/25/2017
 
+About the development:
+Source Code control is Git, using github.  Build tool is Maven.
+Overall the development was done on Intellij, using the Spring framework with ActiveMQ JMS and a MySQL backend database.
+Running the code was done by utilizing Docker containers.
 
 Overview:
 The idea here is to utilize Docker to provide application and database services, running as logically separate services on the local machine.

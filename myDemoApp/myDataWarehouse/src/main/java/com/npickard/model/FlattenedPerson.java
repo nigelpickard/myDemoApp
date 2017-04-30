@@ -5,7 +5,7 @@ import com.npickard.Serializer.SerializerType;
 import javax.persistence.*;
 
 /**
- * Created by npickard on 2/22/2017.
+ * Created by npickard on 4/30/2017.
  */
 @Entity
 @Table(name="FlattenedPerson")
@@ -25,7 +25,7 @@ public class FlattenedPerson {
     }
 
     public FlattenedPerson(String name){
-        this.name = "flattened "+ name + " " + SerializerType.JAXB;
+        this.name = "flattened "+ name + " " + SerializerType.CASTOR;
     }
 
     public int getId() {

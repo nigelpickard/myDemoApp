@@ -9,6 +9,7 @@
         <module name="mavenbase" />
         <module name="myDataWarehouse" />
         <module name="myDemo" />
+        <module name="myDemoCore" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,8 @@
       <module name="mavenbase" target="1.5" />
       <module name="myDataWarehouse" target="1.8" />
       <module name="myDemo" target="1.8" />
+      <module name="myDemoCore" target="1.8" />
+      <module name="myDemoMavenBase" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

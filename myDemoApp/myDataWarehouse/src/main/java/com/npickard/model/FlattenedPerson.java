@@ -1,5 +1,7 @@
 package com.npickard.model;
 
+import com.npickard.Serializer.SerializerType;
+
 import javax.persistence.*;
 
 /**
@@ -23,7 +25,7 @@ public class FlattenedPerson {
     }
 
     public FlattenedPerson(String name){
-        this.name = "flattened "+ name;
+        this.name = "flattened "+ name + " " + SerializerType.JAXB;
     }
 
     public int getId() {

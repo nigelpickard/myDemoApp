@@ -6,7 +6,7 @@ file:${activemq.base}/conf/credentials.properties
 </value>
 </property>
 </bean>
-<broker brokerName="broker-zarex" useJmx="true" advisorySupport="true" splitSystemUsageForProducersConsumers="true" cacheTempDestinations="true" persistent="false" dataDirectory="${activemq.base}/data" xmlns="http://activemq.apache.org/schema/core">
+<broker brokerName="broker-mydemo" useJmx="true" advisorySupport="true" splitSystemUsageForProducersConsumers="true" cacheTempDestinations="true" persistent="false" dataDirectory="${activemq.base}/data" xmlns="http://activemq.apache.org/schema/core">
 <destinationPolicy>
 <policyMap>
 <policyEntries>

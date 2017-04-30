@@ -1,5 +1,4 @@
 com\npickard\FlattenedPersonBuilder.class
-com\npickard\model\Person.class
 com\npickard\JmsMessageSender.class
 com\npickard\service\FlattenedPersonService.class
 com\npickard\MyDataWarehouseRESTController.class
@@ -7,7 +6,10 @@ com\npickard\dao\FlattenedPersonDAO.class
 com\npickard\dao\FlattenedPersonDAOImpl.class
 com\npickard\JmsMessageListener.class
 com\npickard\JmsMessageSender$1.class
-com\npickard\model\FlattenedPerson.class
+com\npickard\dao\FlattenedCarDAO.class
+com\npickard\FlattenedCarBuilder.class
+com\npickard\dao\FlattenedCarDAOImpl.class
 com\npickard\JmsMessageSender$2.class
 com\npickard\MessagePersistenceMode.class
 com\npickard\MyDataWarehouseApplication.class
+com\npickard\service\FlattenedCarService.class

@@ -1,5 +1,6 @@
 package com.npickard;
 
+import com.npickard.model.FlattenedCar;
 import com.npickard.model.FlattenedPerson;
 import com.npickard.model.Person;
 import org.apache.commons.logging.Log;
@@ -21,13 +22,16 @@ public class MyDataWarehouseRESTController {
     @Autowired
     FlattenedPersonBuilder flattenedPersonBuilder;
 
+    @Autowired
+    FlattenedCarBuilder flattenedCarBuilder;
+
     @RequestMapping("/")
     public String index() {
         return "This is a message from the MyDataWarehouse REST Controller!";
     }
 
     @RequestMapping(value = "/persons", method = RequestMethod.GET)
-    public String getAllPerson() {
+    public String getAllPersons() {
         log.info("about to get all flattened persons");
         List<FlattenedPerson> flattenedPersons = flattenedPersonBuilder.getAllPersons();
         StringBuffer sb = new StringBuffer();
@@ -36,6 +40,18 @@ public class MyDataWarehouseRESTController {
             sb.append(flattenedPerson.toString() + "<br>");
         }
         return ("DataWarehouse Service: Flattened Persons persisted in database are " + sb.toString());
+    }
+
+    @RequestMapping(value = "/cars", method = RequestMethod.GET)
+    public String getAllCars() {
+        log.info("about to get all flattened cars");
+        List<FlattenedCar> flattenedCars = flattenedCarBuilder.getAllCars();
+        StringBuffer sb = new StringBuffer();
+        sb.append("<br>");
+        for (FlattenedCar flattenedCar : flattenedCars){
+            sb.append(flattenedCar.toString() + "<br>");
+        }
+        return ("DataWarehouse Service: Flattened Cars persisted in database are " + sb.toString());
     }
 
 }

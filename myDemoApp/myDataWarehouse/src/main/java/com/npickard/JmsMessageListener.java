@@ -5,6 +5,7 @@ import javax.jms.MessageProducer;
 import javax.jms.Session;
 import javax.jms.TextMessage;
 
+import com.npickard.model.Car;
 import com.npickard.model.Person;
 import org.apache.activemq.command.ActiveMQTextMessage;
 import org.apache.commons.logging.Log;
@@ -27,9 +28,13 @@ public class JmsMessageListener {
     @Autowired
     FlattenedPersonBuilder flattenedPersonBuilder;
 
+    @Autowired
+    FlattenedCarBuilder flattenedCarBuilder;
+
     public String handleMessage(String text) {
         log.info("Received: " + text);
-        flattenedPersonBuilder.createPerson(messagePersistenceMode, new Person(text));
+        //flattenedPersonBuilder.createPerson(messagePersistenceMode, new Person(text));
+        flattenedCarBuilder.createCar(messagePersistenceMode, new Car(text));
         return "ACK from handleMessage";
     }
 }

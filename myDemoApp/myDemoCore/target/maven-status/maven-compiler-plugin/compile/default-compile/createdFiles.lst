@@ -1,1 +1,6 @@
+com\npickard\model\FlattenedPerson.class
+com\npickard\model\Person.class
 com\npickard\Serializer\SerializerType.class
+com\npickard\model\FlattenedCar.class
+com\npickard\model\TransmissionType.class
+com\npickard\model\Car.class

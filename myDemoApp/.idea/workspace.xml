@@ -1,44 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb50cf70-b430-478f-b0ca-258c03893888" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/FlattenedCarBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/dao/FlattenedCarDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/dao/FlattenedCarDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/service/FlattenedCarService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myDemoCore/src/main/java/com/npickard/model/Car.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myDemoCore/src/main/java/com/npickard/model/FlattenedCar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myDemoCore/src/main/java/com/npickard/model/TransmissionType.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myDataWarehouse/target/classes/com/npickard/model/FlattenedPerson.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myDataWarehouse/target/classes/com/npickard/model/Person.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/model/FlattenedPerson.java" afterPath="$PROJECT_DIR$/myDemoCore/src/main/java/com/npickard/model/FlattenedPerson.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/model/Person.java" afterPath="$PROJECT_DIR$/myDemoCore/src/main/java/com/npickard/model/Person.java" />
+    <list default="true" id="fb50cf70-b430-478f-b0ca-258c03893888" name="Default" comment="added car">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/target/classes/com/npickard/JmsMessageListener.class" afterPath="$PROJECT_DIR$/myDataWarehouse/target/classes/com/npickard/JmsMessageListener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/target/myDataWarehouse-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/myDataWarehouse/target/myDataWarehouse-0.0.1-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/target/myDataWarehouse-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/myDataWarehouse/target/myDataWarehouse-0.0.1-SNAPSHOT.jar.original" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDemoCore/target/myDemoCore-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/myDemoCore/target/myDemoCore-0.0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/ib_logfile0" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/ib_logfile0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/ibdata1" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/ibdata1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/myDemoDb/FlattenedPerson.ibd" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/myDemoDb/FlattenedPerson.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/myDemoDb/Person.ibd" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/myDemoDb/Person.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/myDemoDb/hibernate_sequence.ibd" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/myDemoDb/hibernate_sequence.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/mysql/innodb_index_stats.ibd" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/mysql/innodb_index_stats.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/mysql/innodb_table_stats.ibd" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/mysql/innodb_table_stats.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/ib_logfile0" afterPath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/ib_logfile0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/ibdata1" afterPath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/ibdata1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/myDemoDb/Person.ibd" afterPath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/myDemoDb/Person.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/myDemoDb/hibernate_sequence.ibd" afterPath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/myDemoDb/hibernate_sequence.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/mysql/innodb_index_stats.ibd" afterPath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/mysql/innodb_index_stats.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/mysql/innodb_table_stats.ibd" afterPath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/mysql/innodb_table_stats.ibd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/JmsMessageListener.java" afterPath="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/JmsMessageListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/MyDataWarehouseRESTController.java" afterPath="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/MyDataWarehouseRESTController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/myDataWarehouse/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/myDataWarehouse/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/myDataWarehouse/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDemoCore/myDemoCore.iml" afterPath="$PROJECT_DIR$/myDemoCore/myDemoCore.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDemoCore/pom.xml" afterPath="$PROJECT_DIR$/myDemoCore/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDemoCore/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/myDemoCore/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDemoCore/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/myDemoCore/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDemoCore/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/myDemoCore/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
@@ -1069,7 +1040,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493566249423</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added car">
+      <created>1493594216285</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1493594216286</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1148,7 +1126,8 @@
     <MESSAGE value="working version -refactored and removed some extra code" />
     <MESSAGE value="minor, changed output and increased to 2 application services" />
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="added car" />
+    <option name="LAST_COMMIT_MESSAGE" value="added car" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

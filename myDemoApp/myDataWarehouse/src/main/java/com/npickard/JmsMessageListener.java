@@ -23,7 +23,7 @@ import org.springframework.stereotype.Service;
  */
 public class JmsMessageListener {
     private static final Log log = LogFactory.getLog(JmsMessageListener.class);
-    MessagePersistenceMode messagePersistenceMode = MessagePersistenceMode.PERSIST;
+    private MessagePersistenceMode messagePersistenceMode = MessagePersistenceMode.PERSIST;
 
     @Autowired
     FlattenedPersonBuilder flattenedPersonBuilder;
@@ -42,4 +42,5 @@ public class JmsMessageListener {
         flattenedCarBuilder.createCar(messagePersistenceMode, car);
         return "ACK from Datawarehouse handleMessage for car " + car.toString();
     }
+
 }

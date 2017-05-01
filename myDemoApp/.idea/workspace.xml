@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb50cf70-b430-478f-b0ca-258c03893888" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/target/classes/com/npickard/JmsMessageListener.class" afterPath="$PROJECT_DIR$/myDataWarehouse/target/classes/com/npickard/JmsMessageListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/target/myDataWarehouse-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/myDataWarehouse/target/myDataWarehouse-0.0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/target/myDataWarehouse-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/myDataWarehouse/target/myDataWarehouse-0.0.1-SNAPSHOT.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDemoCore/target/myDemoCore-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/myDemoCore/target/myDemoCore-0.0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/ib_logfile0" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/ib_logfile0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/ibdata1" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/ibdata1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/myDemoDb/Car.ibd" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/myDemoDb/Car.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/myDemoDb/FlattenedCar.ibd" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/myDemoDb/FlattenedCar.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/myDemoDb/FlattenedPerson.ibd" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/myDemoDb/FlattenedPerson.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/myDemoDb/Person.ibd" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/myDemoDb/Person.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/myDemoDb/hibernate_sequence.ibd" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/myDemoDb/hibernate_sequence.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/mysql/innodb_index_stats.ibd" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/mysql/innodb_index_stats.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/mysql/innodb_table_stats.ibd" afterPath="$PROJECT_DIR$/mySQLData/3306/myDemoDb/mysql/innodb_table_stats.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/ib_logfile0" afterPath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/ib_logfile0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/ibdata1" afterPath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/ibdata1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/myDemoDb/Car.ibd" afterPath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/myDemoDb/Car.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/myDemoDb/FlattenedCar.ibd" afterPath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/myDemoDb/FlattenedCar.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/myDemoDb/FlattenedPerson.ibd" afterPath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/myDemoDb/FlattenedPerson.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/myDemoDb/Person.ibd" afterPath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/myDemoDb/Person.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/myDemoDb/hibernate_sequence.ibd" afterPath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/myDemoDb/hibernate_sequence.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/mysql/innodb_index_stats.ibd" afterPath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/mysql/innodb_index_stats.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/mysql/innodb_table_stats.ibd" afterPath="$PROJECT_DIR$/mySQLData/3307/myDemoDb/mysql/innodb_table_stats.ibd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/JmsMessageListener.java" afterPath="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/JmsMessageListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/myDataWarehouse/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDemoCore/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/myDemoCore/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/JmsMessageSender.java" afterPath="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/JmsMessageSender.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/MyDataWarehouseRESTController.java" afterPath="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/MyDataWarehouseRESTController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/myDemo/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,91 +27,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JmsMessageListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/JmsMessageListener.java">
+      <file leaf-file-name="MyDataWarehouseRESTController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/MyDataWarehouseRESTController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="42" column="79" lean-forward="false" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JmsMessageListener.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/myDemo/src/main/java/com/npickard/JmsMessageListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="35" column="68" lean-forward="false" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JmsMessageSender.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/JmsMessageSender.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessagePersistenceMode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/MessagePersistenceMode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyDataWarehouseApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/MyDataWarehouseApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlattenedCarBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/FlattenedCarBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="26" column="75" lean-forward="false" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlattenedCarDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/dao/FlattenedCarDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlattenedPersonBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/FlattenedPersonBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="55" column="37" lean-forward="false" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+            <state relative-caret-position="95">
+              <caret line="62" column="14" lean-forward="false" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -210,7 +108,6 @@
         <option value="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/MessagePersistenceMode.java" />
         <option value="$PROJECT_DIR$/myDemo/src/main/java/com/npickard/model/TransmissionType.java" />
         <option value="$PROJECT_DIR$/myDemo/src/main/java/com/npickard/model/Car.java" />
-        <option value="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/MyDataWarehouseRESTController.java" />
         <option value="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/dao/FlattenedCarDAO.java" />
         <option value="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/dao/FlattenedCarDAOImpl.java" />
         <option value="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/service/FlattenedCarService.java" />
@@ -219,21 +116,22 @@
         <option value="$PROJECT_DIR$/myDataWarehouse/src/main/resources/application-config.xml" />
         <option value="$PROJECT_DIR$/myDemo/src/main/resources/application-config.xml" />
         <option value="$PROJECT_DIR$/myDemo/src/main/java/com/npickard/dao/CarDAOImpl.java" />
-        <option value="$PROJECT_DIR$/myDemo/src/main/java/com/npickard/MyDemoRESTController.java" />
-        <option value="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/JmsMessageSender.java" />
         <option value="$PROJECT_DIR$/myDemoCore/src/main/java/com/npickard/model/FlattenedCar.java" />
         <option value="$PROJECT_DIR$/myDemoCore/src/main/java/com/npickard/model/Car.java" />
         <option value="$PROJECT_DIR$/myDemoCore/src/main/java/com/npickard/model/FlattenedPerson.java" />
         <option value="$PROJECT_DIR$/myDemoCore/src/main/java/com/npickard/model/Person.java" />
         <option value="$PROJECT_DIR$/myDemo/src/main/java/com/npickard/CarBuilder.java" />
         <option value="$PROJECT_DIR$/myDemo/src/main/java/com/npickard/PersonBuilder.java" />
-        <option value="$PROJECT_DIR$/myDemo/src/main/java/com/npickard/JmsMessageSender.java" />
         <option value="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/FlattenedCarBuilder.java" />
         <option value="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/FlattenedPersonBuilder.java" />
         <option value="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/MyDataWarehouseApplication.java" />
         <option value="$PROJECT_DIR$/README.txt" />
-        <option value="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/JmsMessageListener.java" />
+        <option value="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/JmsMessageSender.java" />
         <option value="$PROJECT_DIR$/myDemo/src/main/java/com/npickard/JmsMessageListener.java" />
+        <option value="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/JmsMessageListener.java" />
+        <option value="$PROJECT_DIR$/myDemo/src/main/java/com/npickard/MyDemoRESTController.java" />
+        <option value="$PROJECT_DIR$/myDemo/src/main/java/com/npickard/JmsMessageSender.java" />
+        <option value="$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/MyDataWarehouseRESTController.java" />
       </list>
     </option>
   </component>
@@ -379,32 +277,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myDemoApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myDataWarehouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migration" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1199,12 +1071,19 @@
       <option name="project" value="LOCAL" />
       <updated>1493666462365</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="working person and car, updated message in confirm queue to show object details">
+      <created>1493667359820</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1493667359820</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1215,12 +1094,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22542372" sideWeight="0.17878339" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4400631" sideWeight="0.82121664" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2318612" sideWeight="0.82121664" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31185943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25183016" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5993691" sideWeight="0.6810089" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1281,7 +1160,8 @@
     <MESSAGE value="added car" />
     <MESSAGE value="working car" />
     <MESSAGE value="working person and car, with confirmations going to queue, pubsub to mydemo topic" />
-    <option name="LAST_COMMIT_MESSAGE" value="working person and car, with confirmations going to queue, pubsub to mydemo topic" />
+    <MESSAGE value="working person and car, updated message in confirm queue to show object details" />
+    <option name="LAST_COMMIT_MESSAGE" value="working person and car, updated message in confirm queue to show object details" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1427,8 +1307,8 @@
         <state relative-caret-position="88">
           <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
           <folding>
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="false" />
+            <element signature="e#648#649#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1481,34 +1361,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/resources/activemq/conf/activemq.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/resources/application-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="117" column="8" lean-forward="true" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-runAll.ps1">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/MyDataWarehouseRESTController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="32" column="50" lean-forward="false" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -1551,22 +1407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myDemo/src/main/java/com/npickard/JmsMessageSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="51" column="32" lean-forward="false" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myDemo/src/main/java/com/npickard/MyDemoRESTController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myDemo/src/main/java/com/npickard/CarBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -1585,42 +1425,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myDemo/src/main/java/com/npickard/PersonBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/FlattenedPersonBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="55" column="37" lean-forward="false" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/JmsMessageSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/MessagePersistenceMode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/MyDataWarehouseApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1649,18 +1457,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/FlattenedPersonBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/MyDataWarehouseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/resources/activemq/conf/activemq.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/JmsMessageSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDemo/src/main/java/com/npickard/PersonBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-212">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/resources/application-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="110" column="77" lean-forward="false" selection-start-line="110" selection-start-column="50" selection-end-line="110" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDemo/src/main/java/com/npickard/MyDemoRESTController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/JmsMessageListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="42" column="79" lean-forward="false" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
-          <folding />
+        <state relative-caret-position="232">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myDemo/src/main/java/com/npickard/JmsMessageListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="35" column="68" lean-forward="false" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
+        <state relative-caret-position="442">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDemo/src/main/java/com/npickard/JmsMessageSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myDataWarehouse/src/main/java/com/npickard/MyDataWarehouseRESTController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="62" column="14" lean-forward="false" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
           <folding />
         </state>
       </provider>

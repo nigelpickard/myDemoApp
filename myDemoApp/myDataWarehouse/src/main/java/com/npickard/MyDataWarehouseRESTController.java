@@ -6,6 +6,7 @@ import com.npickard.model.Person;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jms.listener.DefaultMessageListenerContainer;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -24,6 +25,9 @@ public class MyDataWarehouseRESTController {
 
     @Autowired
     FlattenedCarBuilder flattenedCarBuilder;
+
+    @Autowired
+    DefaultMessageListenerContainer messageListenerContainer;
 
     @RequestMapping("/")
     public String index() {
@@ -52,6 +56,23 @@ public class MyDataWarehouseRESTController {
             sb.append(flattenedCar.toString() + "<br>");
         }
         return ("DataWarehouse Service: Flattened Cars persisted in database are " + sb.toString());
+    }
+
+
+    /**
+     * see bug
+     * https://jira.spring.io/browse/SPR-14604
+     * @param selector
+     * @return
+     */
+
+    @RequestMapping(value = "/message", method = RequestMethod.GET)
+    public String createMessageSelectorByRequestParam(@RequestParam("selector") String selector) {
+        String val = "Manufacturer = '" + selector + "'";
+        messageListenerContainer.stop();
+        messageListenerContainer.setMessageSelector(val);
+        messageListenerContainer.start();
+        return "Message selector is Manufacturer = '" + selector + "'";
     }
 
 }

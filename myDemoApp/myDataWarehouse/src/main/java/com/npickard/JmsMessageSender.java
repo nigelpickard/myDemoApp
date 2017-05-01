@@ -21,22 +21,5 @@ public class JmsMessageSender {
     @Autowired
     private JmsTemplate jmsTemplate;
 
-//    /**
-//     * send text to default destination
-//     * @param text
-//     */
-//    public void send(final String text) {
-//
-//        this.jmsTemplate.send(new MessageCreator() {
-//            @Override
-//            public Message createMessage(Session session) throws JMSException {
-//                log.info("Datawarehouse creating message " +  text);
-//                Message message = session.createTextMessage(text);
-//                message.setJMSReplyTo(new ActiveMQQueue("ConfirmMessageReceivedQueue"));
-//                return message;
-//            }
-//        });
-//    }
-
 }
 

@@ -31,10 +31,15 @@ public class JmsMessageListener {
     @Autowired
     FlattenedCarBuilder flattenedCarBuilder;
 
-    public String handleMessage(String text) {
-        log.info("Received: " + text);
-        //flattenedPersonBuilder.createPerson(messagePersistenceMode, new Person(text));
-        flattenedCarBuilder.createCar(messagePersistenceMode, new Car(text));
+//    public String handleMessage(String text) {
+//        log.info("Received: " + text);
+//        flattenedPersonBuilder.createPerson(messagePersistenceMode, new Person(text));
+//        return "ACK from handleMessage";
+//    }
+
+    public String handleMessage(Car car) {
+        log.info("Received: " + car);
+        flattenedCarBuilder.createCar(messagePersistenceMode, car);
         return "ACK from handleMessage";
     }
 }

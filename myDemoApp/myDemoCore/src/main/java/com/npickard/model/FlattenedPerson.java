@@ -1,10 +1,6 @@
 package com.npickard.model;
 
-import com.npickard.Serializer.SerializerType;
 import javax.persistence.*;
-import java.io.Serializable;
-
-
 
 /**
  * Created by npickard on 4/30/2017.
@@ -27,7 +23,7 @@ public class FlattenedPerson {
     }
 
     public FlattenedPerson(String name){
-        this.name = "flattened "+ name + " " + SerializerType.CASTOR;
+        this.name = "flattened "+ name;
     }
 
     public int getId() {

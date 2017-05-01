@@ -18,15 +18,15 @@ public class FlattenedCar {
     private int id;
 
     private String manufacturer;
+    private String model;
+    private TransmissionType transmissionType;
 
     public FlattenedCar(){}
 
     public FlattenedCar(Car car){
-        this(car.getManufacturer());
-    }
-
-    public FlattenedCar(String manufacturer){
-        this.manufacturer = "flattened "+ manufacturer + " " + SerializerType.CASTOR;
+        this.manufacturer = car.getManufacturer();
+        this.model = car.getModel();
+        this.transmissionType = car.getTransmissionType();
     }
 
     public int getId() {
@@ -38,11 +38,27 @@ public class FlattenedCar {
     }
 
     public String getManufacturer() {
-        return manufacturer;
+        return "flattened " + manufacturer;
     }
 
     public void setManufacturer(String manufacturer) {
         this.manufacturer = manufacturer;
+    }
+
+    public String getModel(){
+        return "flattened " + model;
+    }
+
+    public void setModel(String model){
+        this.model = model;
+    }
+
+    public TransmissionType getTransmissionType(){
+        return transmissionType;
+    }
+
+    public void setTransmissionType(TransmissionType transmissionType){
+        this.transmissionType = transmissionType;
     }
 
     @Override

@@ -1,7 +1,6 @@
 package com.npickard.dao;
 
 import com.npickard.model.FlattenedCar;
-import com.npickard.model.FlattenedPerson;
 import org.springframework.stereotype.Component;
 
 import javax.persistence.EntityManager;

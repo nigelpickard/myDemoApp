@@ -2,10 +2,7 @@ package com.npickard;
 
 import com.npickard.model.Car;
 import com.npickard.model.FlattenedCar;
-import com.npickard.model.FlattenedPerson;
-import com.npickard.model.Person;
 import com.npickard.service.FlattenedCarService;
-import com.npickard.service.FlattenedPersonService;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.BeansException;

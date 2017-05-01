@@ -24,7 +24,7 @@ public class FlattenedCar {
     public FlattenedCar(){}
 
     public FlattenedCar(Car car){
-        this.manufacturer = car.getManufacturer();
+        this.manufacturer = "flattened " + car.getManufacturer();
         this.model = car.getModel();
         this.transmissionType = car.getTransmissionType();
     }
@@ -38,7 +38,7 @@ public class FlattenedCar {
     }
 
     public String getManufacturer() {
-        return "flattened " + manufacturer;
+        return manufacturer;
     }
 
     public void setManufacturer(String manufacturer) {
@@ -63,6 +63,12 @@ public class FlattenedCar {
 
     @Override
     public String toString(){
-        return "manufacturer=" + manufacturer;
+        StringBuffer sb = new StringBuffer();
+        sb.append("\n\t--------- FLATTENED CAR ----------");
+        sb.append("\n\t\tManufacturer: " + manufacturer);
+        sb.append("\n\t\tModel: " + model);
+        sb.append("\n\t\tTransmission: " + transmissionType);
+        sb.append("\n\t----------------------------------");
+        return sb.toString();
     }
 }

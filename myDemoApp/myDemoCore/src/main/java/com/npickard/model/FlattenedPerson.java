@@ -44,6 +44,10 @@ public class FlattenedPerson {
 
     @Override
     public String toString(){
-        return "name=" + name;
+        StringBuffer sb = new StringBuffer();
+        sb.append("\n\t------- FLATTENED PERSON -----------");
+        sb.append("\n\t\tName: " + name);
+        sb.append("\n\t------------------------------------");
+        return sb.toString();
     }
 }

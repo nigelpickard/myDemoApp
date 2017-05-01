@@ -40,20 +40,20 @@ public class FlattenedPersonBuilder implements ApplicationContextAware {
     public void createPerson(MessagePersistenceMode messagePersistenceMode, Person person){
 
         if (messagePersistenceMode == null){
-            log.warn("Message Persistence Mode is null; no operation done.");
+            log.warn("Datawarehouse: Message Persistence Mode is null; no operation done.");
         }
 
         if (person == null){
-            log.warn("FlattenedPerson to create is null!");
+            log.warn("Datawarehouse: FlattenedPerson to create is null!");
         }
 
         if (MessagePersistenceMode.MESSAGE.equals(messagePersistenceMode)){
-            log.info("Trying to send a message for DataWarehouse; not a valid operation.");
+            log.info("Datawarehouse: Trying to send a message for DataWarehouse; not a valid operation.");
         }
 
         if (MessagePersistenceMode.PERSIST.equals(messagePersistenceMode)){
             FlattenedPerson flattenedPerson = new FlattenedPerson(person);
-            log.info("Persisting flattened person: " + flattenedPerson.toString());
+            log.info("Datawarehouse: Persisting flattened person: " + flattenedPerson.toString());
             flattenedPersonService.add(flattenedPerson);
         }
     }

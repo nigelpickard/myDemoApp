@@ -23,4 +23,8 @@ af6908816b10        java:8u40           "java -jar /docker..."   18 seconds ago 
 Note the use of the name to describe the service and port, as well as the db and port the service uses.
 
 
+Current State:
+Working person and car, confirmation receipt send to confirm message queue.
+
+
 

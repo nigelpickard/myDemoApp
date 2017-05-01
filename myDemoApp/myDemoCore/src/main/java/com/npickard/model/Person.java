@@ -41,6 +41,10 @@ public class Person implements Serializable {
 
     @Override
     public String toString(){
-        return "name=" + name;
+        StringBuffer sb = new StringBuffer();
+        sb.append("\n\t------- PERSON -----------");
+        sb.append("\n\t\tName: " + name);
+        sb.append("\n\t----------------------------");
+        return sb.toString();
     }
 }

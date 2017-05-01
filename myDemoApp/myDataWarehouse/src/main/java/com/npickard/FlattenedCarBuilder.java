@@ -37,20 +37,20 @@ public class FlattenedCarBuilder implements ApplicationContextAware {
     public void createCar(MessagePersistenceMode messagePersistenceMode, Car car){
 
         if (messagePersistenceMode == null){
-            log.warn("Message Persistence Mode is null; no operation done.");
+            log.warn("Datawarehouse: Message Persistence Mode is null; no operation done.");
         }
 
         if (car == null){
-            log.warn("FlattenedCar to create is null!");
+            log.warn("Datawarehouse: FlattenedCar to create is null!");
         }
 
         if (MessagePersistenceMode.MESSAGE.equals(messagePersistenceMode)){
-            log.info("Trying to send a message for DataWarehouse; not a valid operation.");
+            log.info("Datawarehouse: Trying to send a message for DataWarehouse; not a valid operation.");
         }
 
         if (MessagePersistenceMode.PERSIST.equals(messagePersistenceMode)){
             FlattenedCar flattenedCar = new FlattenedCar(car);
-            log.info("Persisting flattened car: " + flattenedCar.toString());
+            log.info("Datawarehouse: Persisting flattened car: " + flattenedCar.toString());
             flattenedCarService.add(flattenedCar);
         }
     }

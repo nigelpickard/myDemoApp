@@ -66,6 +66,12 @@ public class Car implements Serializable {
     /**/
     @Override
     public String toString(){
-        return "manufacturer=" + manufacturer + "\nmodel=" + model + "\nTransmission:" + transmissionType;
+        StringBuffer sb = new StringBuffer();
+        sb.append("\n\t--------- CAR -----------");
+        sb.append("\n\t\tManufacturer: " + manufacturer);
+        sb.append("\n\t\tModel: " + model);
+        sb.append("\n\t\tTransmission: " + transmissionType);
+        sb.append("\n\t-------------------------");
+        return sb.toString();
     }
 }

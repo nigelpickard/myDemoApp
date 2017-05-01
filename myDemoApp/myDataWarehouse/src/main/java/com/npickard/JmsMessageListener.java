@@ -34,12 +34,12 @@ public class JmsMessageListener {
     public String handleMessage(String text) {
         log.info("Datawarehouse: Received: " + text);
         flattenedPersonBuilder.createPerson(messagePersistenceMode, new Person(text));
-        return "ACK from Datawarehouse handleMessage for person";
+        return "ACK from Datawarehouse handleMessage for person " + text;
     }
 
     public String handleMessage(Car car) {
         log.info("Datawarehouse: Received: " + car);
         flattenedCarBuilder.createCar(messagePersistenceMode, car);
-        return "ACK from Datawarehouse handleMessage for car";
+        return "ACK from Datawarehouse handleMessage for car " + car.toString();
     }
 }

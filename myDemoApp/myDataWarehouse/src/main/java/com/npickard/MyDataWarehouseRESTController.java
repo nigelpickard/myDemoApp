@@ -72,6 +72,8 @@ public class MyDataWarehouseRESTController {
         messageListenerContainer.stop();
         messageListenerContainer.setMessageSelector(val);
         messageListenerContainer.start();
+
+
         return "Message selector is Manufacturer = '" + selector + "'";
     }
 

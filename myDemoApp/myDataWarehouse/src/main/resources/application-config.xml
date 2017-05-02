@@ -89,7 +89,7 @@
 	<!-- JMS Send, define default destination and JmsTemplate    -->
 	<!-- ======================================================= -->
 	<bean id="myDemoDestination" class="org.apache.activemq.command.ActiveMQTopic">
-		<constructor-arg value="MyDemoTopic" />
+		<constructor-arg value="MyDemo.TestTopic" />
 	</bean>
 
 	<!-- JmsTemplate Definition -->
@@ -110,7 +110,7 @@
 	<bean id="messageListenerContainer"
 		  class="org.springframework.jms.listener.DefaultMessageListenerContainer">
 		<property name="connectionFactory" ref="connectionFactory" />
-		<property name="destinationName" value="MyDemoTopic" />
+		<property name="destinationName" value="MyDemo.*" />
 		<property name="messageListener" ref="messageListenerAdapter" />
 		<property name="pubSubDomain" value="true" />
 	</bean>

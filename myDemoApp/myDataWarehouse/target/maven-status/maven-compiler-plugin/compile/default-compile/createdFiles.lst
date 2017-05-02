@@ -1,13 +1,17 @@
 com\npickard\FlattenedPersonBuilder.class
 com\npickard\JmsMessageSender.class
 com\npickard\service\FlattenedPersonService.class
+com\npickard\service\FlattenedHouseService.class
 com\npickard\MyDataWarehouseRESTController.class
+com\npickard\dao\FlattenedHouseDAO.class
 com\npickard\dao\FlattenedPersonDAO.class
 com\npickard\dao\FlattenedPersonDAOImpl.class
+com\npickard\FlattenedHouseBuilder.class
 com\npickard\JmsMessageListener.class
 com\npickard\dao\FlattenedCarDAO.class
 com\npickard\FlattenedCarBuilder.class
 com\npickard\dao\FlattenedCarDAOImpl.class
 com\npickard\MessagePersistenceMode.class
 com\npickard\MyDataWarehouseApplication.class
+com\npickard\dao\FlattenedHouseDAOImpl.class
 com\npickard\service\FlattenedCarService.class

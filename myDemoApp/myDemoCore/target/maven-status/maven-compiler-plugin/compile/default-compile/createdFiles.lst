@@ -1,6 +1,10 @@
 com\npickard\model\FlattenedPerson.class
 com\npickard\model\Person.class
 com\npickard\Serializer\SerializerType.class
+com\npickard\Serializer\HouseJSONSerializer.class
 com\npickard\model\FlattenedCar.class
+com\npickard\Serializer\HouseJSONDeserializer.class
+com\npickard\model\House.class
+com\npickard\model\FlattenedHouse.class
 com\npickard\model\TransmissionType.class
 com\npickard\model\Car.class

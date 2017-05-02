@@ -1,6 +1,7 @@
 package com.npickard;
 
 import com.npickard.model.FlattenedCar;
+import com.npickard.model.FlattenedHouse;
 import com.npickard.model.FlattenedPerson;
 import com.npickard.model.Person;
 import org.apache.commons.logging.Log;
@@ -25,6 +26,9 @@ public class MyDataWarehouseRESTController {
 
     @Autowired
     FlattenedCarBuilder flattenedCarBuilder;
+
+    @Autowired
+    FlattenedHouseBuilder flattenedHouseBuilder;
 
     @Autowired
     DefaultMessageListenerContainer messageListenerContainer;
@@ -58,6 +62,17 @@ public class MyDataWarehouseRESTController {
         return ("DataWarehouse Service: Flattened Cars persisted in database are " + sb.toString());
     }
 
+    @RequestMapping(value = "/houses", method = RequestMethod.GET)
+    public String getAllHouses() {
+        log.info("about to get all flattened houses");
+        List<FlattenedHouse> flattenedHouses = flattenedHouseBuilder.getAllHouses();
+        StringBuffer sb = new StringBuffer();
+        sb.append("<br>");
+        for (FlattenedHouse flattenedHouse : flattenedHouses){
+            sb.append(flattenedHouse.toString() + "<br>");
+        }
+        return ("DataWarehouse Service: Flattened Houses persisted in database are " + sb.toString());
+    }
 
     /**
      * see bug
@@ -72,8 +87,6 @@ public class MyDataWarehouseRESTController {
         messageListenerContainer.stop();
         messageListenerContainer.setMessageSelector(val);
         messageListenerContainer.start();
-
-
         return "Message selector is Manufacturer = '" + selector + "'";
     }
 

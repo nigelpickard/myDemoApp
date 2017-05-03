@@ -5,5 +5,5 @@ package com.npickard.Serializer;
  */
 public enum SerializerType {
     JAXB,
-    CASTOR
+    JSON
 }

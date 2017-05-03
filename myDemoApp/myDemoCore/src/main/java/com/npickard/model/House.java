@@ -5,15 +5,30 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.npickard.Serializer.HouseJSONDeserializer;
 import com.npickard.Serializer.HouseJSONSerializer;
 
+import javax.persistence.*;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
 /**
  * Created by npickard on 5/2/2017.
  */
+//@XmlRootElement
+
+@Entity
+@Table(name="House")
 @JsonSerialize(using = HouseJSONSerializer.class)
 @JsonDeserialize(using = HouseJSONDeserializer.class)
+@XmlRootElement
 public class House {
-    public int streetNumber;
-    public String streetName;
-    public String cityName;
+
+    @Id
+    @Column(name="id")
+    @GeneratedValue(strategy= GenerationType.AUTO)
+    private int id;
+
+    private int streetNumber;
+    private String streetName;
+    private String cityName;
 
     public House(){}
 
@@ -31,6 +46,7 @@ public class House {
         return streetNumber;
     }
 
+    @XmlElement
     public void setStreetNumber(int streetNumber){
         this.streetNumber = streetNumber;
     }
@@ -39,6 +55,7 @@ public class House {
         return streetName;
     }
 
+    @XmlElement
     public void setStreetName(String streetName){
         this.streetName = streetName;
     }
@@ -47,6 +64,7 @@ public class House {
         return  cityName;
     }
 
+    @XmlElement
     public void setCityName(String cityName){
         this.cityName = cityName;
     }

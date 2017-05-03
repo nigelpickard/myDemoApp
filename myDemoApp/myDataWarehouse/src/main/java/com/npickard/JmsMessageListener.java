@@ -6,6 +6,7 @@ import javax.jms.Session;
 import javax.jms.TextMessage;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.npickard.Serializer.HouseJAXBDeserializer;
 import com.npickard.model.Car;
 import com.npickard.model.House;
 import com.npickard.model.Person;
@@ -38,6 +39,9 @@ public class JmsMessageListener {
     @Autowired
     FlattenedHouseBuilder flattenedHouseBuilder;
 
+    @Autowired
+    HouseJAXBDeserializer jaxbDeserializer;
+
     /**
      * its text, so its serialized into some form.   Could
      * be just text, json or xml
@@ -53,11 +57,18 @@ public class JmsMessageListener {
             log.info("Datawarehouse: deserialized house using JSON deserializer");
             flattenedHouseBuilder.createHouse(messagePersistenceMode, house);
             return "ACK from Datawarehouse handleMessage for person " + text;
-        } catch (IOException e) {
-            //we may have  a person
-            log.info("Datawarehouse: House deserialization failed, trying person....");
-            flattenedPersonBuilder.createPerson(messagePersistenceMode, new Person(text));
-            return "ACK from Datawarehouse handleMessage for person " + text;
+        } catch (Exception e1) {
+            try {
+                House house = jaxbDeserializer.deserialize(text);
+                log.info("Datawarehouse: deserialized house using JAXB deserializer");
+                flattenedHouseBuilder.createHouse(messagePersistenceMode, house);
+                return "ACK from Datawarehouse handleMessage for person " + text;
+            }catch(Exception e2) {
+                //we may have  a person
+                log.info("Datawarehouse: House deserialization failed, trying person....");
+                flattenedPersonBuilder.createPerson(messagePersistenceMode, new Person(text));
+                return "ACK from Datawarehouse handleMessage for person " + text;
+            }
         }
     }
 

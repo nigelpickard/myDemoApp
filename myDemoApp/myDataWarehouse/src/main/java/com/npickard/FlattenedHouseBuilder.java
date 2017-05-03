@@ -1,10 +1,7 @@
 package com.npickard;
 
-import com.npickard.model.Car;
-import com.npickard.model.FlattenedCar;
 import com.npickard.model.FlattenedHouse;
 import com.npickard.model.House;
-import com.npickard.service.FlattenedCarService;
 import com.npickard.service.FlattenedHouseService;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

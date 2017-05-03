@@ -1,6 +1,8 @@
 com\npickard\model\FlattenedPerson.class
 com\npickard\model\Person.class
+com\npickard\Serializer\HouseJAXBSerializer.class
 com\npickard\Serializer\SerializerType.class
+com\npickard\Serializer\HouseJAXBDeserializer.class
 com\npickard\Serializer\HouseJSONSerializer.class
 com\npickard\model\FlattenedCar.class
 com\npickard\Serializer\HouseJSONDeserializer.class

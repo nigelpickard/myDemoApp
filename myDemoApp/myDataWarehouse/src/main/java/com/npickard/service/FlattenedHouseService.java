@@ -1,8 +1,6 @@
 package com.npickard.service;
 
-import com.npickard.dao.FlattenedCarDAO;
 import com.npickard.dao.FlattenedHouseDAO;
-import com.npickard.model.FlattenedCar;
 import com.npickard.model.FlattenedHouse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

@@ -24,7 +24,7 @@ public class FlattenedHouse {
     public FlattenedHouse(House house){
         this.streetNumber = house.getStreetNumber();
         this.streetName = "flattened " + house.getStreetName();
-        //this.cityName = house.getCityName();
+        this.cityName = house.getCityName();
     }
 
     public int getId() {
@@ -65,7 +65,7 @@ public class FlattenedHouse {
         sb.append("\n\t--------- FLATTENED HOUSE ----------");
         sb.append("\n\t\tNumber: " + streetNumber);
         sb.append("\n\t\tStreet: " + streetName);
-        //sb.append("\n\t\tCity: " + cityName);
+        sb.append("\n\t\tCity: " + cityName);
         sb.append("\n\t----------------------------------");
         return sb.toString();
     }

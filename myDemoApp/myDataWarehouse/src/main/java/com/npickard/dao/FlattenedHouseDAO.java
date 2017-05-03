@@ -1,6 +1,5 @@
 package com.npickard.dao;
 
-import com.npickard.model.FlattenedCar;
 import com.npickard.model.FlattenedHouse;
 
 import java.util.List;
